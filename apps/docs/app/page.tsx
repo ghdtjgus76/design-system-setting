@@ -6,9 +6,10 @@ export default function Home() {
     <>
       <div
         className={css({
-          fontSize: "2xl",
+          fontSize: "var(--scale-dimension-font-size-9000)",
           color: "red.300",
           fontWeight: "bold",
+          bg: "var(--static-color-static-blue-800)",
         })}
       >
         Hello 🐼

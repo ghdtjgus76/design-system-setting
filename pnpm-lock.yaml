@@ -66,6 +66,12 @@ importers:
       design-system-setting-icons:
         specifier: workspace:*
         version: link:../../packages/icons
+      design-system-setting-stylesheet:
+        specifier: workspace:^
+        version: link:../../packages/stylesheet
+      design-system-setting-tokens:
+        specifier: workspace:^
+        version: link:../../packages/tokens
       design-system-setting-ui:
         specifier: workspace:*
         version: link:../../packages/ui
