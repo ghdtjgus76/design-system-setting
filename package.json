@@ -1,5 +1,5 @@
 {
-  "name": "design-system",
+  "name": "design-system-setting",
   "private": true,
   "scripts": {
     "build": "turbo build",
