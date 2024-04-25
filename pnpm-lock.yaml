@@ -171,6 +171,28 @@ importers:
       design-system-setting-stylesheet:
         specifier: workspace:^
         version: link:../stylesheet
+    devDependencies:
+      '@rollup/plugin-json':
+        specifier: ^6.1.0
+        version: 6.1.0(rollup@4.16.4)
+      '@rollup/plugin-terser':
+        specifier: ^0.4.4
+        version: 0.4.4(rollup@4.16.4)
+      rollup:
+        specifier: ^4.16.4
+        version: 4.16.4
+      rollup-plugin-babel:
+        specifier: ^4.4.0
+        version: 4.4.0(@babel/core@7.24.4)(rollup@4.16.4)
+      rollup-plugin-commonjs:
+        specifier: ^10.1.0
+        version: 10.1.0(rollup@4.16.4)
+      rollup-plugin-node-resolve:
+        specifier: ^5.2.0
+        version: 5.2.0(rollup@4.16.4)
+      rollup-plugin-peer-deps-external:
+        specifier: ^2.2.4
+        version: 2.2.4(rollup@4.16.4)
 
   packages/typescript-config: {}
 
