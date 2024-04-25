@@ -1,11 +1,13 @@
 {
+  "extends": "@repo/typescript-config/react-library.json",
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@storybook/react": ["node_modules/@storybook/react"]
-    },
-    "moduleResolution": "node",
-    "jsx": "react",
-    "allowSyntheticDefaultImports": true
-  }
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "emitDeclarationOnly": true,
+    "allowImportingTsExtensions": true,
+    "module": "ES2015",
+    "moduleResolution": "Bundler"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
