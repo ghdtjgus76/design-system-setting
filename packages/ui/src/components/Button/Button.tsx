@@ -13,7 +13,7 @@ export default function Button({ children, onClick }: ButtonProps) {
     <button
       onClick={onClick}
       className={css({
-        bg: "red.300",
+        bg: "var(--static-color-static-blue-800)",
         fontFamily: "Inter",
         px: "4",
         py: "3",
