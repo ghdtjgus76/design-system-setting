@@ -6,27 +6,27 @@ const LeftArrow = () => (
     viewBox="0 0 24 24"
     fill="none"
   >
-    <g clip-path="url(#clip0_36_3509)">
+    <g clipPath="url(#clip0_36_3509)">
       <path
         d="M5 12H19"
         stroke="#E4E4E5"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5 12L11 18"
         stroke="#E4E4E5"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5 12L11 6"
         stroke="#E4E4E5"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </g>
     <defs>

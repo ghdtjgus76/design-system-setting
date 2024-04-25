@@ -6,27 +6,27 @@ const DownArrow = () => (
     viewBox="0 0 24 24"
     fill="none"
   >
-    <g clip-path="url(#clip0_36_3524)">
+    <g clipPath="url(#clip0_36_3524)">
       <path
         d="M12 19V5"
         stroke="#E4E4E5"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 19L18 13"
         stroke="#E4E4E5"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M12 19L6 13"
         stroke="#E4E4E5"
-        stroke-width="1.6"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </g>
     <defs>
