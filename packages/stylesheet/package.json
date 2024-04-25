@@ -1,10 +1,18 @@
 {
-  "name": "stylesheet",
-  "version": "1.0.0",
+  "name": "design-system-setting-stylesheet",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghdtjgus76/design-system-setting.git",
+    "directory": "packages/stylesheet"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./global.css": "./global.css",
+    "./package.json": "./package.json"
   },
   "keywords": [],
   "author": "",
