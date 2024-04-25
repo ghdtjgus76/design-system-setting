@@ -10,7 +10,8 @@
     "prepare": "panda codegen"
   },
   "dependencies": {
-    "design-system-ui": "workspace:*",
+    "design-system-setting-icons": "workspace:*",
+    "design-system-setting-ui": "workspace:*",
     "next": "^14.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
