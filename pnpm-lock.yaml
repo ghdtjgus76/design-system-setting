@@ -63,7 +63,10 @@ importers:
 
   apps/docs:
     dependencies:
-      design-system-ui:
+      design-system-setting-icons:
+        specifier: workspace:*
+        version: link:../../packages/icons
+      design-system-setting-ui:
         specifier: workspace:*
         version: link:../../packages/ui
       next:

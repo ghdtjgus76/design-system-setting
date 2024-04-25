@@ -23,6 +23,7 @@ export default {
       format: "cjs",
     },
   ],
+  external: ["react/jsx-runtime"],
   plugins: [
     peerDepsExternal(),
     resolve({ extensions }),
