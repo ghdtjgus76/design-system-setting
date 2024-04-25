@@ -1,0 +1,3 @@
+:root{--static-color-static-black:#000;--static-color-static-white:#fff;--static-color-static-red-800:#e81300;--static-color-static-blue-800:#0a85b5;--scale-dimension-font-size-1000:3rem;--scale-dimension-font-size-9000:2.625rem;--semantic-typography-h1-font-size:var(
+    --seed-scale-dimension-font-size-1000
+  );--semantic-typography-h2-font-size:var(--seed-scale-dimension-font-size-900)}

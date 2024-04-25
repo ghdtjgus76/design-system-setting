@@ -1,7 +1,8 @@
 {
   "name": "design-system-setting-stylesheet",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ghdtjgus76/design-system-setting.git",
@@ -11,10 +12,16 @@
     "access": "public"
   },
   "exports": {
-    "./global.css": "./global.css",
-    "./package.json": "./package.json"
+    "./global.css": "./global.css"
+  },
+  "scripts": {
+    "clean:build": "rm -rf dist && rollup -c"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.16.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }
