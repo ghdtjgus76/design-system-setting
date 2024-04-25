@@ -166,7 +166,11 @@ importers:
 
   packages/stylesheet: {}
 
-  packages/tokens: {}
+  packages/tokens:
+    dependencies:
+      design-system-setting-stylesheet:
+        specifier: workspace:^
+        version: link:../stylesheet
 
   packages/typescript-config: {}
 
