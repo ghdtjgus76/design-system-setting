@@ -1,5 +1,6 @@
 import { LeftArrow } from "design-system-setting-icons";
 import { css } from "../styled-system/css/css";
+import { Button } from "design-system-setting-ui";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         Hello 🐼
       </div>
       <LeftArrow />
+      <Button>Hello 🐼</Button>
     </>
   );
 }

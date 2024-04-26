@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "design-system-setting-icons": "workspace:*",
-    "design-system-setting-stylesheet": "workspace:^",
-    "design-system-setting-tokens": "workspace:^",
+    "design-system-setting-stylesheet": "workspace:*",
+    "design-system-setting-tokens": "workspace:*",
     "design-system-setting-ui": "workspace:*",
     "next": "^14.1.1",
     "react": "^18.2.0",
