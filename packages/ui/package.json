@@ -1,6 +1,6 @@
 {
   "name": "design-system-setting-ui",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "",
   "type": "module",
   "main": "dist/index.cjs",

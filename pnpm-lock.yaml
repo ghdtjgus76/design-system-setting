@@ -67,10 +67,10 @@ importers:
         specifier: workspace:*
         version: link:../../packages/icons
       design-system-setting-stylesheet:
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../../packages/stylesheet
       design-system-setting-tokens:
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../../packages/tokens
       design-system-setting-ui:
         specifier: workspace:*
