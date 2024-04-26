@@ -5,7 +5,9 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prerelease": "pnpm changeset version",
+    "release": "pnpm publish -r --no-git-checks"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
