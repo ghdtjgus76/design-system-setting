@@ -16,8 +16,8 @@
   "scripts": {
     "prepare": "panda codegen",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "sb dev -p 6006",
-    "build-storybook": "sb build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "clean:build": "rm -rf dist && rollup -c && tsc --emitDeclarationOnly"
   },
   "keywords": [],
@@ -43,11 +43,12 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-url": "^3.0.1"
+    "rollup-plugin-url": "^3.0.1",
+    "storybook": "^8.0.9"
   },
   "dependencies": {
-    "design-system-setting-tokens": "workspace:^",
     "design-system-setting-stylesheet": "workspace:^",
+    "design-system-setting-tokens": "workspace:^",
     "next": "^14.1.1"
   },
   "resolutions": {

@@ -284,6 +284,9 @@ importers:
       rollup-plugin-url:
         specifier: ^3.0.1
         version: 3.0.1(rollup@4.16.4)
+      storybook:
+        specifier: ^8.0.9
+        version: 8.0.9(react-dom@18.2.0)(react@18.2.0)
 
 packages:
 
@@ -13259,6 +13262,21 @@ packages:
 
   /store2@2.14.3:
     resolution: {integrity: sha512-4QcZ+yx7nzEFiV4BMLnr/pRa5HYzNITX2ri0Zh6sT9EyQHbBHacC6YigllUPU9X3D0f/22QCgfokpKs52YRrUg==}
+    dev: true
+
+  /storybook@8.0.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/Mvij0Br5bUwJpCvqAUZMEDIWmdRxEyllvVj8Ukw5lIWJePxfpSsz4px5jg9+R6B9tO8sQSqjg4HJvQ/pZk8Tg==}
+    hasBin: true
+    dependencies:
+      '@storybook/cli': 8.0.9(react-dom@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - '@babel/preset-env'
+      - bufferutil
+      - encoding
+      - react
+      - react-dom
+      - supports-color
+      - utf-8-validate
     dev: true
 
   /stream-browserify@3.0.0:

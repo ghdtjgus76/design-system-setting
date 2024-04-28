@@ -10,6 +10,9 @@ function getAbsolutePath(value) {
 
 /** @type { import('@storybook/nextjs').StorybookConfig } */
 const config = {
+  core: {
+    builder: "@storybook/builder-webpack5",
+  },
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
     getAbsolutePath("@storybook/addon-onboarding"),
