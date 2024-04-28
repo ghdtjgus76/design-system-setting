@@ -1,6 +1,6 @@
 {
   "name": "design-system-setting",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",

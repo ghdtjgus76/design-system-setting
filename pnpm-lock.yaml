@@ -266,6 +266,9 @@ importers:
       '@svgr/rollup':
         specifier: ^8.1.0
         version: 8.1.0(rollup@4.16.4)(typescript@5.3.3)
+      chromatic:
+        specifier: ^11.3.0
+        version: 11.3.0
       rollup:
         specifier: ^4.16.4
         version: 4.16.4
