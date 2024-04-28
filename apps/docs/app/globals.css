@@ -1,2 +1,3 @@
 @layer reset, base, tokens, recipes, utilities;
 @import url("design-system-setting-stylesheet/global.css");
+@import url("design-system-setting-ui/styles.css");
