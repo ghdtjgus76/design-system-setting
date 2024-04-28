@@ -15,7 +15,7 @@ export default function Button({ children, onClick }: ButtonProps) {
       className={css({
         bg: "var(--static-color-static-blue-800)",
         fontFamily: "Inter",
-        px: "4",
+        px: "5",
         py: "3",
         borderRadius: "md",
         _hover: { bg: "red.400" },
